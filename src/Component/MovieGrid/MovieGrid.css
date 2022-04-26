@@ -1,0 +1,63 @@
+.movie-grid{
+    padding: 30px 0;
+    max-width: 1120px;
+}
+#movieGenreLink {
+    height: 33px;
+    background-color: #272B34;
+    padding: 8px 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+#movieGenreLink a {
+    text-decoration: none;
+    color: #8E95A5;
+}
+
+#movieGenreLink span {
+    color: var(--title-color);
+    line-height: 17px;
+}
+
+#movieGenreList .listTitle h2 {
+    color: #00ACC1;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 25px 0px;
+}
+
+
+.genreList .row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+#genrePage {
+    text-align: center;
+}
+
+#genrePage button{
+    background-color: #13151A;
+    color: white;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin: 15px 5px 30px;
+    outline: none;
+    border: 0;
+}
+
+#genrePage button:first-child {
+    background-color: #00ACC1;
+}
+#genrePage button:disabled{
+    opacity: .6;
+}
+.noti-text{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
